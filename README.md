@@ -11,3 +11,12 @@
 先使用python对以上任务进行处理，处理完成后，利用argprase封装，以供web后台调用。之后利用springboot搭建了一个简单的web系统，通过调用
 算法接口实现用户对算法的使用。web服务是以jar包方式，运行在linux服务器上以供用户访问的。
  
+# python相关包的版本信息：
+#python3.7.6
+#gensim3.8.2
+#jieba0.42.1
+python-docx0.8.10
+#tensorflow2.0.0b0
+#Keras2.2.4
+#numpy1.16.4
+#easydict1.9
