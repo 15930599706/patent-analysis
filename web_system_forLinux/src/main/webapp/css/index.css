@@ -1,0 +1,72 @@
+body{
+margin: 0px;
+border:0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.topWapper{
+  width: 1530px;
+  height:70px;
+  background-color: #1F547E;
+}
+.topWapper .topBar{
+  float: left;
+  margin-left: 50px;
+  font-size:30px;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  line-height:70px;
+  letter-spacing:8px;
+}
+.topWapper .time{
+  font-size: 10px;
+  float: right;
+  margin-right: 50px;
+  color: white;
+  line-height: 70px;
+}
+.leftWapper{
+  /* display: inline-block; */
+  float: left;
+  width:300px;
+  height:100%;
+  border:1px solid #1F547E;
+}
+.leftWapper .functionWapper{
+  /* display: block;
+  width: 140px;
+  margin-top: 20px;
+  text-align: center; */
+}
+.leftWapper .function{
+  height: 60px;
+  width: 215px;
+  background-color: #1F547E;
+  margin-top: 30px;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  line-height: 60px;
+  border-radius: 10px;
+}
+.leftWapper .function a{
+  text-decoration:none;
+  color: white;
+}
+.leftWapper .function:hover{
+  cursor:pointer;
+  background-color: #0088cc;
+  color: black;
+}
+
+.main{
+  display: inline-block;
+  float: left;
+  /* width:1080px;
+  height: 980px; */
+  width:800px;
+  height:700px;
+  border:1px solid black;
+}

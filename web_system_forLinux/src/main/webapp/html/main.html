@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>专利文本分析系统</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <!-- <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+    <link href="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.js"></script> -->
+    <script src="../js/index.js"></script>
+  </head>
+  <body>
+    <div class="topWapper">
+      <span class="topBar">专利文本分析系统</span>
+      <span class="time" id="ymd">2019年4月5日,星期五</span>
+      <script>
+          var date = new Date()
+          var year = date.getFullYear()
+          var month = date.getMonth()+1
+          var day = date.getDate()
+          if (date.getDay() == 1) {
+            var week = '一'
+          }
+          else if (date.getDay() ==2 ) {
+            var week = '二'
+          }
+          else if (date.getDay() ==3 ) {
+            var week = '三'
+          }
+          else if (date.getDay() ==4 ) {
+            var week = '四'
+          }
+          else if (date.getDay() == 5) {
+            var week = '五'
+          }
+          else if (date.getDay() == 6) {
+            var week = '六'
+          }
+          else if (date.getDay() == 7) {
+            var week = '日'
+          }
+          document.getElementById("ymd").innerHTML = year+"年"+month+"月"+day+"日"+",星期"+week
+      </script>
+    </div>
+    <div class="leftWapper">
+      <ul class="functionWapper">
+        <li class="function" id="msgMananger"><a href="Patent_infringement_judgment.jsp">产品侵权判断</a></li>
+        <li class="function" id="monitor"><a href="Patent_litigation_estimates.html">涉诉金额预估</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      帮助页面！
+    </div>
+
+  </body>
+</html>
